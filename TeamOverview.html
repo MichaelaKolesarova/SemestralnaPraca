@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styleTeamOverview.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <title>TeamOverview</title>
+    </head>
+
+
+    <body>
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <img src="resources/coffee.png"  width="40" height="32">
+
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Project management</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Team management</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Personal management</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Documentation</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="resources/DSC04686.JPG" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="d-flex flex-column flex-shrink-0 p-3 bg-light col col-lg-2 col-sm-12 d-none d-sm-block d-sm-none d-md-block d-md-none  d-lg-block navbar" style="width: 200px; overflow-y: scroll; height: 90vh; margin-left: 0">
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                        <span class="fs-4">Github</span>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto ">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-dark" aria-current="page">
+                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link link-dark">
+                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                                Boards
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link link-dark">
+                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                                Drive
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link link-dark">
+                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                                Tests
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link link-dark">
+                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                                Chats
+                            </a>
+
+                            <div class="col-12 col-lg-5 col-xl-3 border-right ">
+
+
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka1.jpg" class="rounded-circle mr-1" alt="Vanessa Tucker" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Vanessa Tucker
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka2.jpg" class="rounded-circle mr-1" alt="William Harris" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            William Harris
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka3.jpg" class="rounded-circle mr-1" alt="Sharon Lessman" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Sharon Lessman
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka4.jpg" class="rounded-circle mr-1" alt="Christina Mason" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Christina Mason
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka5.jpg" class="rounded-circle mr-1" alt="Fiona Green" width="30" height="30">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Fiona Green
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka1.jpg" class="rounded-circle mr-1" alt="Vanessa Tucker" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Vanessa Tucker
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka2.jpg" class="rounded-circle mr-1" alt="William Harris" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            William Harris
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action border-5">
+                                    <div class="d-flex align-items-start">
+                                        <img src="resources/profilovka3.jpg" class="rounded-circle mr-1" alt="Sharon Lessman" width="35" height="35">
+                                        <div class="flex-grow-1 ml-3 person-text">
+                                            Sharon Lessman
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                                <hr class="d-block d-lg-none mt-1 mb-0">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col ">
+                    <div class="row" >
+                        <div class="tasks-card" style="width: 31%">
+                            <div >
+                                <span class="card-title-text">TO DO</span>
+                                <span class="badge bg-secondary right brown">3 tasks</span>
+                            </div>
+
+                            <div class="task-card">
+                                <div class="task-name full-width">
+                                    <span>doplnenie témy záverečnej práce</span>
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical right" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                    </svg>
+                                </div>
+
+                                <div class="full-width">
+                                    <i class="bi bi-bell-fill left"></i>
+                                    <img class="task-assignee-photo right" src="resources/DSC04686.JPG">
+                                </div>
+                            </div>
+
+                            <div class="task-card">
+                                <div class="task-name full-width">
+                                    <span>nahrať projekt na GIT</span>
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical right" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                    </svg>
+                                </div> 
+
+                                <div class="full-width">
+                                    <i class="bi bi-bell-fill left"></i>
+                                    <img class="task-assignee-photo right" src="resources/DSC04686.JPG">
+                                </div>
+                            </div>
+
+                            <div class="task-card">
+                                <div class="task-name full-width">
+                                    <span>odovzdať projekt</span>
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical right" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                    </svg>
+                                </div>
+
+                                <div class="full-width">
+                                    <i class="bi bi-bell-fill left"></i>
+                                    <img class="task-assignee-photo right" src="resources/DSC04686.JPG">
+                                </div>
+                            </div>
+
+
+                            <div class="full-width">
+                                <button class="text-button">New Task...</button>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                        <div class="tasks-card" style="width: 31%">
+                            <div >
+                                <span class="card-title-text">IN PROGRESS</span>
+                                <span class="badge bg-secondary right brown">1 task</span>
+                            </div>
+
+                            <div class="task-card">
+                                <div class="task-name full-width">
+                                    <span>pripraviť checkpoint</span>
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical right" viewBox="0 0 16 16">
+                                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                    </svg>
+                                </div>
+
+                                <div class="full-width">
+                                    <i class="bi bi-bell-fill left"></i>
+                                    <img class="task-assignee-photo right" src="resources/DSC04686.JPG">
+                                </div>
+                            </div>
+                            <button class="text-button">New Task...</button>
+                        </div>
+
+                        <div class="tasks-card" style="width: 31%">
+                            <div >
+                                <span class="card-title-text">DONE</span>
+                                <span class="badge bg-secondary right brown">0 tasks</span>
+                            </div>
+
+                            <div data-dnd-type="TASK_COLUMN" data-category-id="1415212" data-category-position="2" class="_1IhfQnLQA3Sa0Q8JH6pEiC ui-sortable"></div>
+                            <button class="text-button">New Task...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+

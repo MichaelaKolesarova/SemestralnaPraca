@@ -1,0 +1,101 @@
+:root {
+    --brown_1: #594545;
+    --brown_2: #815B5B;
+    --brown_3: #b7abab;
+    --beige: #fff8ee;
+}
+
+body {
+    background-color: var(--beige);
+    padding: 1%}
+
+.text-button {
+    border: none;
+    background-color: inherit;
+    padding: 1%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+/* On mouse-over */
+.text-button:hover {
+    background: var(--brown_3);
+    color: var(--beige);}
+
+.tasks-card {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: var(--brown_1);
+    background: var(--brown_3);
+    display: inline-block;
+    margin: auto;
+    padding: 1%;
+}
+
+.card-title-text {
+    color: var(--brown_1);
+    padding-bottom: 5%;
+}
+
+.task-card {
+    border-radius: 5px;
+    background: var(--beige);
+    display: block;
+    margin: 5px;
+    padding: 1%;
+}
+
+.task-assignee-photo {
+    position: relative;
+    float: right;
+    display: inline-block
+}
+
+img.task-assignee-photo{
+    position: relative;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+}
+
+
+.full-width {
+    width: 100%;
+    height: 24px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.navbar {
+    background: var(--brown_3);
+}
+
+
+.nav-link:hover {
+    background: var(--brown_3);
+    color: var(--beige);
+}
+a.nav-link:hover{
+    color: var(--beige);
+}
+
+.container {
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+}
+
+.person-text {
+    font-size: 0.7em;
+}
+
+.border-5 {
+    margin: 10px;
+}
