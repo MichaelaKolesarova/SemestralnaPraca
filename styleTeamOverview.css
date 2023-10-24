@@ -99,3 +99,15 @@ a.nav-link:hover{
 .border-5 {
     margin: 10px;
 }
+
+.almost-full-width-buttons {
+    width: 90%;
+}
+
+.margin-between-sections {
+    margin-bottom: 30px;
+
+}
+.small-margin{
+    margin: 10px;
+}
